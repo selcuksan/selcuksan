@@ -14,5 +14,5 @@
 [![Github Badge](https://img.shields.io/badge/github-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/selcuksan)  
 
 <h3 align="left">Languages and Tools:</h3>
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
+[![Python]](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
 
