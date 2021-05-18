@@ -1,4 +1,4 @@
-<img align='right' src="https://github-readme-stats.vercel.app/api?username=ahmetmert1&show_icons=true&theme=dracula">
+<img align='right' src="https://github-readme-stats.vercel.app/api?username=selcuksan&show_icons=true&theme=dracula">
 
 <h1 align="center">Hi, I'm Selçuk Şan</h1>
 <h3 align="center">I am a Computer Science student at Bursa Technical University</h3>
