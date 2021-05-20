@@ -5,8 +5,6 @@
 
 - I’m currently learning **Web Development and Data Science**
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&hide=Jupyter%20Notebook)
-
 <h3 align="left">Languages and Tools:</h3>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -14,6 +12,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&hide=Jupyter%20Notebook)
 
 <h3 align="left">Contact with me:</h3>
 
