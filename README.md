@@ -5,7 +5,7 @@
 
 - I’m currently learning **Web Development and Data Science**
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&hide=Jupyter%20Notebook)
 
 <h3 align="left">Languages and Tools:</h3>
 
