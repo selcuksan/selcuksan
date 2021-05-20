@@ -5,8 +5,7 @@
 
 - I’m currently learning **Web Development and Data Science**
 
-![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan)
-
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&layout=compact)
 
 <h3 align="left">Languages and Tools:</h3>
 
