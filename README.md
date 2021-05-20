@@ -5,7 +5,7 @@
 
 - I’m currently learning **Web Development and Data Science**
 
-![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?selcuksan=shinokada)
+![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=shinokada)
 
 <h3 align="left">Contact with me:</h3>
 
