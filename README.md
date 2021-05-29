@@ -14,7 +14,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&hide=Jupyter%20Notebook,CSS)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&hide=Jupyter%20Notebook,CSS,HTML)
 
 
 <h3 align="left">Contact with me:</h3>
