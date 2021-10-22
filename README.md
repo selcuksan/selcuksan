@@ -20,6 +20,8 @@
 
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&hide=Jupyter%20Notebook,CSS,HTML,PHP)
 
