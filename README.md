@@ -7,11 +7,7 @@
 
 
 <h3 align="left">Languages and Tools:</h3>
-<div align="center">
-    <a href="https://github.com/selcuksan/github-profile-views-counter">
-        <img align="center" src="https://komarev.com/ghpvc/?username=keremersu35&color=f75c7e">
-    </a>
-</br>
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
