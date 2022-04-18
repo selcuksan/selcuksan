@@ -6,7 +6,7 @@
 - I’m currently learning **Data Science and Data Engineering**
 
 
-<div align="center">
+<div>
     <a href="https://github.com/selcuksan/github-profile-views-counter">
         <img align="center" src="https://komarev.com/ghpvc/?username=selcuksan&color=f75c7e">
     </a>
