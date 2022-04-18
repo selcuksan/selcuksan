@@ -6,6 +6,13 @@
 - I’m currently learning **Data Science and Data Engineering**
 
 
+<div align="center">
+    <a href="https://github.com/selcuksan/github-profile-views-counter">
+        <img align="center" src="https://komarev.com/ghpvc/?username=selcuksan&color=f75c7e">
+    </a>
+</br>
+
+
 <h3 align="left">Languages and Tools:</h3>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
