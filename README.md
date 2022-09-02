@@ -37,7 +37,7 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&hide=Jupyter%20Notebook,CSS,HTML,PHP)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=selcuksan&hide=Jupyter%20Notebook,CSS,HTML,PHP,javascript)
 
 
 <h3 align="left">Contact with me:</h3>
