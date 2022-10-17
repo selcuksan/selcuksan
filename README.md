@@ -3,7 +3,7 @@
 <h1 align="center">Hi, I'm Selçuk Şan</h1>
 <h3 align="center">I am a Computer Science student at Bursa Technical University</h3>
 
-- I’m improving myself on data science, data engineering, databases and cloud computing.
+- I’m improving myself on data engineering, databases and cloud computing.
 
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=selcuksan&label=Profile%20views&color=0e75b6&style=flat" alt="selcuksan" /> </p>
