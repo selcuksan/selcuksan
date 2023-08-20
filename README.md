@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Selçuk</h1>
 <h3 align="center">I’m currently working as Cloud & DevOps Engineer @Turk Telekom</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=selcuksan&label=Profile%20views&color=0e75b6&style=flat" alt="selcuksan" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=selcuksan&label=Profile%20views&color=0e75b6&style=flat" alt="selcuksan" /> </p>
 
 - 🔭 I’m currently working as [Cloud & DevOps Engineer](Turk Telekom)
 
@@ -30,5 +30,5 @@
 
 # Blog posts
 
-BLOG-POST-LIST:START 
-BLOG-POST-LIST:END
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
