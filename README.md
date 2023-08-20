@@ -26,8 +26,6 @@
 <h3> Medium Stories </h3>
 
 <!-- BLOG-POST-LIST:START -->
-- [Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17?source=rss-6b92533c1297------2)
-- [Veri Ambarı Nedir?](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-ambar%C4%B1-nedir-d409cf2dc810?source=rss-6b92533c1297------2)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
