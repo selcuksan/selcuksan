@@ -31,9 +31,6 @@
 # Blog posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Have you seen this sexy button?](https://dev.to/rahuldkjain/have-you-seen-this-sexy-button-2ijn)
-- [How I improved my GitHub profile?](https://dev.to/rahuldkjain/how-i-improved-my-github-profile-480c)
-- [Awesome FrontendMasters course resources](https://dev.to/rahuldkjain/awesome-frontendmasters-course-resources-1gj2)
-- [How to start and promote your open-source project?](https://dev.to/rahuldkjain/how-to-start-and-promote-your-open-source-project-3ebp)
-- [How to gain 1000+ stars on an open-source project quickly?](https://dev.to/rahuldkjain/how-my-project-repo-reached-200-stars-in-less-than-36-hours-on-github-2l15)
+- [Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17?source=rss-6b92533c1297------2)
+- [Veri Ambarı Nedir?](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-ambar%C4%B1-nedir-d409cf2dc810?source=rss-6b92533c1297------2)
 <!-- BLOG-POST-LIST:END -->
