@@ -55,15 +55,14 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Thursday, September 14, 2023 at 5:23:24 PM
+> Last updated: Thursday, September 14, 2023 at 5:25:25 PM
 
-> Showing 5 of 6 posts.
+> Showing 4 of 6 posts.
 
 [![Red Hat Multi Cloud Gateway (Noobaa) nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Red_Hat_Multi_Cloud_Gateway_(Noobaa)_nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/red-hat-multi-cloud-gateway-noobaa-9992a5877ce6)
 [![Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Monitoring__Sistemlerinizi_Kontrol_Altında_Tutun_ve_Performansı_Maksimize_Edin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17)
 [![Infrastructure as Code (IaC) Nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Infrastructure_as_Code_(IaC)_Nedir_.svg)](https://medium.com/@selcuk.san/infrastructure-as-code-iac-nedir-55f60d4cc908?source=rss-6b92533c1297------2)
 [![Veri Ambarı Nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Veri_Ambarı_Nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-ambar%C4%B1-nedir-d409cf2dc810)
-[![SQL Subquery](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/SQL_Subquery.svg)](https://medium.com/@selcuk.san/sql-subquery-d8a642feae47)
 
 
 <!-- blog-post-list:end -->
