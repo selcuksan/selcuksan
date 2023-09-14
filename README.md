@@ -41,8 +41,8 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=selcuksan&show_icons=true&locale=en" alt="selcuksan" height="150" /></p>
 
-<h3> Medium Stories </h3>
-<!-- BLOG-POST-LIST:START -->
+<!--<h3> Medium Stories </h3>
+ BLOG-POST-LIST:START
 - [Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17?source=rss-6b92533c1297------2)
 - [Veri Ambarı Nedir?](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-ambar%C4%B1-nedir-d409cf2dc810?source=rss-6b92533c1297------2)
 - [Veri Mühendisi Kimdir? Ve Ne İş Yapar?](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-m%C3%BChendisli%C4%9Fi-nedir-ve-veri-m%C3%BChendisi-ne-yapar-9cf62a3203e4?source=rss-6b92533c1297------2)
