@@ -16,7 +16,7 @@
 #         with:
 #           max_post_count: "4"
 #           feed_list: "https://medium.com/feed/@selcuk.san"
-
+name: Latest blog post workflow
 on:
   push:
   schedule:
