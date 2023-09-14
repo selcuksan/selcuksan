@@ -55,14 +55,15 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Thursday, September 14, 2023 at 5:29:09 PM
+> Last updated: Thursday, September 14, 2023 at 5:31:24 PM
 
-> Showing 4 of 5 posts.
+> Showing 5 of 5 posts.
 
 [![Red Hat Multi Cloud Gateway (Noobaa) nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Red_Hat_Multi_Cloud_Gateway_(Noobaa)_nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/red-hat-multi-cloud-gateway-noobaa-9992a5877ce6)
 [![Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Monitoring__Sistemlerinizi_Kontrol_Altında_Tutun_ve_Performansı_Maksimize_Edin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17)
 [![Veri Ambarı Nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Veri_Ambarı_Nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-ambar%C4%B1-nedir-d409cf2dc810)
 [![SQL Subquery](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/SQL_Subquery.svg)](https://medium.com/@selcuk.san/sql-subquery-d8a642feae47)
+[![Veri Mühendisi Kimdir? Ve Ne İş Yapar?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Veri_Mühendisi_Kimdir__Ve_Ne_İş_Yapar_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-m%C3%BChendisli%C4%9Fi-nedir-ve-veri-m%C3%BChendisi-ne-yapar-9cf62a3203e4)
 
 
 <!-- blog-post-list:end -->
