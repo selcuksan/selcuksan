@@ -42,7 +42,11 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=selcuksan&show_icons=true&locale=en" alt="selcuksan" height="150" /></p>
 
 <h3> Medium Stories </h3>
-
+<!-- BLOG-POST-LIST:START 
+- [Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17?source=rss-6b92533c1297------2)
+- [Veri Ambarı Nedir?](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-ambar%C4%B1-nedir-d409cf2dc810?source=rss-6b92533c1297------2)
+- [Veri Mühendisi Kimdir? Ve Ne İş Yapar?](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-m%C3%BChendisli%C4%9Fi-nedir-ve-veri-m%C3%BChendisi-ne-yapar-9cf62a3203e4?source=rss-6b92533c1297------2)
+ BLOG-POST-LIST:END -->
 
 
 <!-- blog-post-list:start -->
@@ -53,14 +57,11 @@ Stories by Selçuk Şan on Medium
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
 > Last updated: Thursday, September 14, 2023 at 5:14:46 PM
 
-> Showing 5 of 6 posts.
-
 [![Red Hat Multi Cloud Gateway (Noobaa) nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Red_Hat_Multi_Cloud_Gateway_(Noobaa)_nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/red-hat-multi-cloud-gateway-noobaa-9992a5877ce6)
 [![Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Monitoring__Sistemlerinizi_Kontrol_Altında_Tutun_ve_Performansı_Maksimize_Edin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17)
 [![Infrastructure as Code (IaC) Nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Infrastructure_as_Code_(IaC)_Nedir_.svg)](https://medium.com/@selcuk.san/infrastructure-as-code-iac-nedir-55f60d4cc908)
 [![Veri Ambarı Nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Veri_Ambarı_Nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-ambar%C4%B1-nedir-d409cf2dc810)
 [![SQL Subquery](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/SQL_Subquery.svg)](https://medium.com/@selcuk.san/sql-subquery-d8a642feae47)
-
 
 <!-- blog-post-list:end -->
 
