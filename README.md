@@ -49,6 +49,9 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 - [Veri Mühendisi Kimdir? Ve Ne İş Yapar?](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-m%C3%BChendisli%C4%9Fi-nedir-ve-veri-m%C3%BChendisi-ne-yapar-9cf62a3203e4?source=rss-6b92533c1297------2)
 <!-- BLOG-POST-LIST:END -->
 
+<!-- blog-post-list:start -->
+<!-- blog-post-list:end -->
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://img.shields.io/badge/email-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:selcuk1330@gmail.com" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="selcuksan" height="30" width="50" /></a>
