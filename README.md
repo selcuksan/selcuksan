@@ -37,7 +37,7 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 </p>
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=selcuksan&show_icons=true&locale=en&layout=compact&hide=Jupyter%20Notebook,CSS,HTML,PHP,javascript" height="150" alt="selcuksan" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=selcuksan&show_icons=true&locale=en&layout=compact&hide=Jupyter%20Notebook,CSS,HTML,PHP,javascript,kvlang" height="150" alt="selcuksan" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=selcuksan&show_icons=true&locale=en" alt="selcuksan" height="150" /></p>
 
