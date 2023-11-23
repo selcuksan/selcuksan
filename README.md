@@ -55,11 +55,11 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Wednesday, November 22, 2023 at 12:44:05 AM
+> Last updated: Thursday, November 23, 2023 at 12:42:08 AM
 
 > Showing 5 of 6 posts.
 
-[![“DevOps Bir İnsan Problemidir”](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/“DevOps_Bir_İnsan_Problemidir”.svg)](https://medium.com/@selcuk.san/devops-bir-i%CC%87nsan-problemidir-7408538464d8)
+[![“DevOps Bir İnsan Problemidir”](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/“DevOps_Bir_İnsan_Problemidir”.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/devops-bir-i%CC%87nsan-problemidir-7408538464d8)
 [![Red Hat Multi Cloud Gateway (Noobaa) nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Red_Hat_Multi_Cloud_Gateway_(Noobaa)_nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/red-hat-multi-cloud-gateway-noobaa-9992a5877ce6)
 [![Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Monitoring__Sistemlerinizi_Kontrol_Altında_Tutun_ve_Performansı_Maksimize_Edin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17)
 [![Veri Ambarı Nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Veri_Ambarı_Nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/veri-ambar%C4%B1-nedir-d409cf2dc810)
