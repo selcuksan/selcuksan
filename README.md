@@ -55,7 +55,7 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Wednesday, January 17, 2024 at 12:43:17 AM
+> Last updated: Thursday, January 18, 2024 at 12:42:53 AM
 
 > Showing 5 of 8 posts.
 
