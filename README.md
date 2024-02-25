@@ -55,15 +55,15 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Saturday, February 24, 2024 at 12:37:43 AM
+> Last updated: Sunday, February 25, 2024 at 12:43:09 AM
 
 > Showing 5 of 8 posts.
 
 [![Kendi Kubernetes Clusterınızı Yönetin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kendi_Kubernetes_Clusterınızı_Yönetin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/operate-your-kubernetes-clusters-f769323bc5be)
-[![Watsonx Code Assistant for Z: Mainframe Application Modernization](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Watsonx_Code_Assistant_for_Z__Mainframe_Application_Modernization.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/watsonx-code-assistant-for-z-mainframe-application-modernization-26b72d14895e?source=rss-6b92533c1297------2)
+[![Watsonx Code Assistant for Z: Mainframe Application Modernization](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Watsonx_Code_Assistant_for_Z__Mainframe_Application_Modernization.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/watsonx-code-assistant-for-z-mainframe-application-modernization-26b72d14895e)
 [![“DevOps Bir İnsan Problemidir”](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/“DevOps_Bir_İnsan_Problemidir”.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/devops-bir-i%CC%87nsan-problemidir-7408538464d8?source=rss-6b92533c1297------2)
 [![Red Hat Multi Cloud Gateway (Noobaa) nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Red_Hat_Multi_Cloud_Gateway_(Noobaa)_nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/red-hat-multi-cloud-gateway-noobaa-9992a5877ce6?source=rss-6b92533c1297------2)
-[![Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Monitoring__Sistemlerinizi_Kontrol_Altında_Tutun_ve_Performansı_Maksimize_Edin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17)
+[![Monitoring: Sistemlerinizi Kontrol Altında Tutun ve Performansı Maksimize Edin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Monitoring__Sistemlerinizi_Kontrol_Altında_Tutun_ve_Performansı_Maksimize_Edin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/monitoring-sistemlerinizi-kontrol-alt%C4%B1nda-tutun-ve-performans%C4%B1-maksimize-edin-66986a076d17?source=rss-6b92533c1297------2)
 
 
 <!-- blog-post-list:end -->
