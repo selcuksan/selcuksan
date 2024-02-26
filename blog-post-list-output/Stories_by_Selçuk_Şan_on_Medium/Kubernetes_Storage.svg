@@ -67,11 +67,11 @@
     <foreignObject width="600" height="100" x="5" y="5">
       <div xmlns="http://www.w3.org/1999/xhtml" style="border-radius: 5px; overflow: hidden; height: 100%;">
         <div class="text">
-          <div class="title">Monitoring&#0058;&#0032;Sistemlerinizi&#0032;Kontrol&#0032;Altında&#0032;Tutun&#0032;ve&#0032;Performansı&#0032;Maksimize&#0032;Edin</div>
+          <div class="title">Kubernetes&#0032;Storage</div>
           <div class="description"></div>
-          <div class="date">5&#0047;17&#0047;23</div>
+          <div class="date">2&#0047;25&#0047;24</div>
           <div class="data">
-            <span class="author">Sel&#0231;uk&#0032;Şan</span> <span class="category">monitoring</span>
+            <span class="author">Sel&#0231;uk&#0032;Şan</span> <span class="category">kubernetes</span> <span class="category">storage</span> <span class="category">kubernetes&#0045;storage</span>
           </div>
         </div>
       </div>
