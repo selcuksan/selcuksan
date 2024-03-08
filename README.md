@@ -55,15 +55,15 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Thursday, March 7, 2024 at 12:32:45 AM
+> Last updated: Friday, March 8, 2024 at 12:40:02 AM
 
 > Showing 5 of 9 posts.
 
-[![Kubernetes Storage](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kubernetes_Storage.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/kubernetes-storage-fc8892cca267)
-[![Kendi Kubernetes Clusterınızı Yönetin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kendi_Kubernetes_Clusterınızı_Yönetin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/operate-your-kubernetes-clusters-f769323bc5be)
-[![Watsonx Code Assistant for Z: Mainframe Application Modernization](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Watsonx_Code_Assistant_for_Z__Mainframe_Application_Modernization.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/watsonx-code-assistant-for-z-mainframe-application-modernization-26b72d14895e)
-[![“DevOps Bir İnsan Problemidir”](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/“DevOps_Bir_İnsan_Problemidir”.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/devops-bir-i%CC%87nsan-problemidir-7408538464d8)
-[![Red Hat Multi Cloud Gateway (Noobaa) nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Red_Hat_Multi_Cloud_Gateway_(Noobaa)_nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/red-hat-multi-cloud-gateway-noobaa-9992a5877ce6)
+[![Kubernetes Storage](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kubernetes_Storage.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/kubernetes-storage-fc8892cca267?source=rss-6b92533c1297------2)
+[![Kendi Kubernetes Clusterınızı Yönetin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kendi_Kubernetes_Clusterınızı_Yönetin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/operate-your-kubernetes-clusters-f769323bc5be?source=rss-6b92533c1297------2)
+[![Watsonx Code Assistant for Z: Mainframe Application Modernization](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Watsonx_Code_Assistant_for_Z__Mainframe_Application_Modernization.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/watsonx-code-assistant-for-z-mainframe-application-modernization-26b72d14895e?source=rss-6b92533c1297------2)
+[![“DevOps Bir İnsan Problemidir”](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/“DevOps_Bir_İnsan_Problemidir”.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/devops-bir-i%CC%87nsan-problemidir-7408538464d8?source=rss-6b92533c1297------2)
+[![Red Hat Multi Cloud Gateway (Noobaa) nedir?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Red_Hat_Multi_Cloud_Gateway_(Noobaa)_nedir_.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/red-hat-multi-cloud-gateway-noobaa-9992a5877ce6?source=rss-6b92533c1297------2)
 
 
 <!-- blog-post-list:end -->
