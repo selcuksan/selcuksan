@@ -5,7 +5,7 @@ I develop my technical skills and gain hands-on experience with cloud computing 
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=selcuksan&label=Profile%20views&color=0e75b6&style=flat" alt="selcuksan" /> </p>
 
-- 🔭 I’m currently working as **Cloud & DevOps Engineer** @Turk Telekom
+- 🔭 I’m currently working as **Cloud & DevOps Engineer** @TÜBİTAK
 
 - 📝 I regularly write articles on [medium](https://medium.com/@selcuk.san)
 
