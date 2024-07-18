@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Selçuk</h1>
-<p align="left">As a recent graduate with a degree in Computer Science from Bursa Technical University, I'm a motivated Jr. Cloud & DevOps Engineer with experience in Linux, Openshift, Kubernetes, Docker, Python, Azure DevOps, ArgoCD and Jenkins.
-I develop my technical skills and gain hands-on experience with cloud computing and other cutting-edge technologies in a dynamic team environment.
+<p align="left">As a recent graduate with a degree in Computer Science from Bursa Technical University, I'm a Platform & DevOps Engineer with experience in Linux, Openshift, Kubernetes, Prometheus, Grafana, ArgoCD and Python.
+I develop my technical skills and gain hands-on experience with open source and cutting-edge technologies in a dynamic team environment.
 </p>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=selcuksan&label=Profile%20views&color=0e75b6&style=flat" alt="selcuksan" /> </p>
