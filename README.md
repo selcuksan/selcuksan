@@ -47,11 +47,11 @@ I develop my technical skills and gain hands-on experience with open source and 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Saturday, August 17, 2024 at 12:46:37 AM
+> Last updated: Sunday, August 18, 2024 at 12:52:36 AM
 
 > Showing 5 of 10 posts.
 
-[![Prometheus ile Alerting](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Prometheus_ile_Alerting.svg)](https://medium.com/@selcuk.san/prometheus-ile-alerting-bafb16538d50)
+[![Prometheus ile Alarm Yönetimi](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Prometheus_ile_Alarm_Yönetimi.svg)](https://medium.com/@selcuk.san/prometheus-ile-alerting-bafb16538d50)
 [![Kubernetes’te Observability ve Monitoring — I](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kubernetes’te_Observability_ve_Monitoring_—_I.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/kuberneteste-observability-ve-monitoring-i-a597b99b985c)
 [![Kubernetes Storage](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kubernetes_Storage.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/kubernetes-storage-fc8892cca267)
 [![Kendi Kubernetes Clusterınızı Yönetin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kendi_Kubernetes_Clusterınızı_Yönetin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/operate-your-kubernetes-clusters-f769323bc5be)
