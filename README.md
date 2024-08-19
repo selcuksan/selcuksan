@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Selçuk</h1>
-<p align="left">As a recent graduate with a degree in Computer Science from Bursa Technical University, I'm a Platform & DevOps Engineer with experience in Linux, Openshift, Kubernetes, Prometheus, Grafana, ArgoCD and Python.
+<p align="left">I'm a Platform & DevOps Engineer with experience in Linux, Openshift, Kubernetes, Prometheus, Grafana, ArgoCD and Python.
 I develop my technical skills and gain hands-on experience with open source and cutting-edge technologies in a dynamic team environment.
 </p>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=selcuksan&label=Profile%20views&color=0e75b6&style=flat" alt="selcuksan" /> </p>
 
-- 🔭 I’m currently working as **Cloud & DevOps Engineer** @TÜBİTAK
+- 🔭 I’m currently working as **DevOps Engineer** @TÜBİTAK
 
 - 📝 I regularly write articles on [medium](https://medium.com/@selcuk.san)
 
