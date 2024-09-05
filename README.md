@@ -47,15 +47,15 @@ I develop my technical skills and gain hands-on experience with open source and 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Wednesday, September 4, 2024 at 12:52:07 AM
+> Last updated: Thursday, September 5, 2024 at 12:51:50 AM
 
 > Showing 5 of 10 posts.
 
-[![Prometheus ile Alarm Yönetimi](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Prometheus_ile_Alarm_Yönetimi.svg)](https://medium.com/@selcuk.san/prometheus-ile-alerting-bafb16538d50)
 [![Kubernetes’te Observability ve Monitoring — I](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kubernetes’te_Observability_ve_Monitoring_—_I.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/kuberneteste-observability-ve-monitoring-i-a597b99b985c)
 [![Kubernetes Storage](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kubernetes_Storage.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/kubernetes-storage-fc8892cca267)
 [![Kendi Kubernetes Clusterınızı Yönetin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kendi_Kubernetes_Clusterınızı_Yönetin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/operate-your-kubernetes-clusters-f769323bc5be)
 [![Watsonx Code Assistant for Z: Mainframe Application Modernization](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Watsonx_Code_Assistant_for_Z__Mainframe_Application_Modernization.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/watsonx-code-assistant-for-z-mainframe-application-modernization-26b72d14895e)
+[![“DevOps Bir İnsan Problemidir”](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/“DevOps_Bir_İnsan_Problemidir”.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/devops-bir-i%CC%87nsan-problemidir-7408538464d8)
 
 
 <!-- blog-post-list:end -->
