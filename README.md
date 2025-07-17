@@ -7,7 +7,7 @@ I develop my technical skills and gain hands-on experience with open source and 
 
 - 🔭 I’m currently working as **Platform Engineer** @TÜBİTAK
 
-- 📝 I regularly write articles on [medium](https://medium.com/@selcuk.san)
+- 📝 I regularly write articles on [medium](https://medium.com/@selcuk.san) and [TUBİTAK YTE BLOG](https://yteblog.bilgem.tubitak.gov.tr/authors/selcuk_san)  
 
 
 <h3 align="left">Languages and Tools:</h3>
@@ -54,7 +54,6 @@ Stories by Selçuk Şan on Medium
 [![Kendi Kubernetes Clusterınızı Yönetin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kendi_Kubernetes_Clusterınızı_Yönetin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/operate-your-kubernetes-clusters-f769323bc5be)
 [![Watsonx Code Assistant for Z: Mainframe Application Modernization](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Watsonx_Code_Assistant_for_Z__Mainframe_Application_Modernization.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/watsonx-code-assistant-for-z-mainframe-application-modernization-26b72d14895e)
 [![“DevOps Bir İnsan Problemidir”](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/“DevOps_Bir_İnsan_Problemidir”.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/devops-bir-i%CC%87nsan-problemidir-7408538464d8)
-
 
 <!-- blog-post-list:end -->
 
