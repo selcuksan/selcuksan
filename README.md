@@ -45,15 +45,15 @@ I develop my technical skills and gain hands-on experience with open source and 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Friday, May 22, 2026 at 2:40:58 AM
+> Last updated: Saturday, May 23, 2026 at 2:26:17 AM
 
 > Showing 5 of 10 posts.
 
+[![Dağıtık Sistemlerde Mitigation Pratikleri ve Incident Yönetimi](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Dağıtık_Sistemlerde_Mitigation_Pratikleri_ve_Incident_Yönetimi.svg)](https://medium.com/@selcuk.san/da%C4%9F%C4%B1t%C4%B1k-sistemlerde-mitigation-pratikleri-ve-incident-y%C3%B6netimi-5d2d77244e39?source=rss-6b92533c1297------2)
+[![Dağıtık Sistemlerde Arızalar ve Gözlemlenebilirlik](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Dağıtık_Sistemlerde_Arızalar_ve_Gözlemlenebilirlik.svg)](https://medium.com/@selcuk.san/da%C4%9F%C4%B1t%C4%B1k-sistemlerde-ar%C4%B1zalar-neden-farkl%C4%B1d%C4%B1r-648e8ce6fce9?source=rss-6b92533c1297------2)
 [![Dağıtık Sistemler: Zaman Karmaşası](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Dağıtık_Sistemler__Zaman_Karmaşası.svg)](https://medium.com/@selcuk.san/da%C4%9F%C4%B1t%C4%B1k-sistemler-zaman-karma%C5%9Fas%C4%B1-520cb6e77988?source=rss-6b92533c1297------2)
 [![Linux’ta “Her Şey Bir Dosyadır” İlkesi Ne Anlama Geliyor?](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Linux’ta_“Her_Şey_Bir_Dosyadır”_İlkesi_Ne_Anlama_Geliyor_.svg)](https://medium.com/@selcuk.san/linuxta-her-%C5%9Fey-bir-dosyad%C4%B1r-i%CC%87lkesi-ne-anlama-geliyor-4362aa7bbbc0?source=rss-6b92533c1297------2)
 [![Kubernetes’te Observability ve Monitoring — I](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kubernetes’te_Observability_ve_Monitoring_—_I.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/kuberneteste-observability-ve-monitoring-i-a597b99b985c?source=rss-6b92533c1297------2)
-[![Kubernetes Storage](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kubernetes_Storage.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/kubernetes-storage-fc8892cca267?source=rss-6b92533c1297------2)
-[![Kendi Kubernetes Clusterınızı Yönetin](https://raw.githubusercontent.com/selcuksan/selcuksan/main/blog-post-list-output/Stories_by_Selçuk_Şan_on_Medium/Kendi_Kubernetes_Clusterınızı_Yönetin.svg)](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/operate-your-kubernetes-clusters-f769323bc5be?source=rss-6b92533c1297------2)
 
 
 <!-- blog-post-list:end -->

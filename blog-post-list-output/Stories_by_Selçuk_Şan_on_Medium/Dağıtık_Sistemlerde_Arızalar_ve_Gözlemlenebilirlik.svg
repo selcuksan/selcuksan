@@ -67,11 +67,11 @@
     <foreignObject width="600" height="100" x="5" y="5">
       <div xmlns="http://www.w3.org/1999/xhtml" style="border-radius: 5px; overflow: hidden; height: 100%;">
         <div class="text">
-          <div class="title">Kubernetes&#0032;Storage</div>
+          <div class="title">Dağıtık&#0032;Sistemlerde&#0032;Arızalar&#0032;ve&#0032;G&#0246;zlemlenebilirlik</div>
           <div class="description"></div>
-          <div class="date">2&#0047;25&#0047;24</div>
+          <div class="date">5&#0047;22&#0047;26</div>
           <div class="data">
-            <span class="author">Sel&#0231;uk&#0032;Şan</span> <span class="category">kubernetes</span> <span class="category">storage</span> <span class="category">kubernetes&#0045;storage</span>
+            <span class="author">Sel&#0231;uk&#0032;Şan</span> <span class="category">dağıtık&#0045;sistemler</span> <span class="category">sre</span> <span class="category">devops</span> <span class="category">distributed&#0045;systems</span> <span class="category">kubernetes</span>
           </div>
         </div>
       </div>
