@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Selçuk</h1>
 <p align="left">I'm a Platform Engineer with experience in Openshift and Kubernetes.
-I develop my technical skills and gain hands-on experience with open source and cutting-edge technologies in a dynamic team environment.
+I develop my technical skills and gain hands-on experience with open source and cutting-edge technologies.
 </p>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=selcuksan&label=Profile%20views&color=0e75b6&style=flat" alt="selcuksan" /> </p>
 
-- 🔭 I’m currently working as **Platform Engineer** @TÜBİTAK
+- 🔭 I’m currently working as **Platform Engineer**
 
-- 📝 I regularly write articles on [medium](https://medium.com/@selcuk.san) and [TUBİTAK YTE BLOG](https://yteblog.bilgem.tubitak.gov.tr/authors/selcuk_san)  
+- 📝 I regularly write articles on [medium](https://medium.com/@selcuk.san).
 
 
 <h3 align="left">Languages and Tools:</h3>
