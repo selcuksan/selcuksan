@@ -33,7 +33,7 @@ I develop my technical skills and gain hands-on experience with open source and 
 Stories by Selçuk Şan on Medium
 
 [Read more](https://medium.com/@selcuk.san?source=rss-6b92533c1297------2)
-> Last updated: Friday, October 16, 2026 at 2:33:39 AM
+> Last updated: Saturday, October 17, 2026 at 2:26:10 AM
 
 > Showing 5 of 10 posts.
 
