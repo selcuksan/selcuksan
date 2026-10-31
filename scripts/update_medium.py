@@ -96,22 +96,23 @@ def wrap(text: str, width: int, max_lines: int) -> list[str]:
 
 
 def svg_card(post: dict, index: int, total: int) -> str:
+    """Compact card: narrower text and shorter canvas, without losing hierarchy."""
     featured = index == 0
-    height = 228 if featured else 162
-    title_y = 95 if featured else 79
-    title_size = 29 if featured else 25
-    title_lines = wrap(post["title"], 43 if featured else 47, 2)
-    summary = wrap(post["description"], 82, 1) if featured and post["description"] else []
+    height = 160 if featured else 124
+    title_y = 68 if featured else 65
+    title_size = 22 if featured else 20
+    title_lines = wrap(post["title"], 53 if featured else 58, 2)
+    summary = wrap(post["description"], 95, 1) if featured and post["description"] else []
     title_svg = "\n".join(
-        f'  <text x="40" y="{title_y + i * 34}" fill="#f8fafc" font-size="{title_size}" font-weight="700">{escape(line)}</text>'
+        f'  <text x="30" y="{title_y + i * 27}" fill="#f8fafc" font-size="{title_size}" font-weight="700">{escape(line)}</text>'
         for i, line in enumerate(title_lines)
     )
-    subtitle_svg = (f'  <text x="40" y="177" fill="#aebdd1" font-size="14">{escape(summary[0])}</text>\n'
+    subtitle_svg = (f'  <text x="30" y="119" fill="#aebdd1" font-size="12">{escape(summary[0])}</text>\n'
                     if summary else "")
     subject = post["topic"]
     if len(subject) > 35:
         subject = subject[:34].rsplit(" ", 1)[0] + "…"
-    date_svg = (f'<text x="798" y="{height - 24}" font-size="12" font-weight="600" '
+    date_svg = (f'<text x="810" y="{height - 18}" font-size="10" font-weight="600" '
                 f'fill="#8191aa" text-anchor="end">{escape(post["date"])}</text>'
                 if post["date"] else "")
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 {height}" width="840" height="{height}" role="img" aria-label="{escape(post['title'], quote=True)}">
@@ -119,20 +120,21 @@ def svg_card(post: dict, index: int, total: int) -> str:
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131f32"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#75e5ca"/><stop offset="1" stop-color="#6088f0"/></linearGradient>
   </defs>
-  <rect x="1" y="1" width="838" height="{height-2}" rx="18" fill="url(#bg)" stroke="#2c3a4f" stroke-width="2"/>
-  <rect x="1" y="26" width="5" height="{height-52}" rx="2" fill="url(#accent)"/>
+  <rect x="1" y="1" width="838" height="{height-2}" rx="14" fill="url(#bg)" stroke="#2c3a4f" stroke-width="2"/>
+  <rect x="1" y="20" width="5" height="{height-40}" rx="2" fill="url(#accent)"/>
   <circle cx="742" cy="10" r="72" fill="none" stroke="#75e5ca" stroke-opacity="0.08" stroke-width="25"/>
   <circle cx="742" cy="10" r="113" fill="none" stroke="#93a8f5" stroke-opacity="0.05" stroke-width="22"/>
-  <text x="40" y="37" fill="#74dec9" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.5">{('FEATURED STORY' if featured else 'ENGINEERING NOTES')}</text>
-  <text x="799" y="37" text-anchor="end" fill="#7d8fa9" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">{index+1:02d} / {total:02d}</text>
+  <text x="30" y="26" fill="#74dec9" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">{('FEATURED STORY' if featured else 'ENGINEERING NOTES')}</text>
+  <text x="810" y="26" text-anchor="end" fill="#7d8fa9" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700">{index+1:02d} / {total:02d}</text>
   <g font-family="Arial, Helvetica, sans-serif">
 {title_svg}
-{subtitle_svg}  <text x="40" y="{height - 24}" font-size="12" font-weight="600" letter-spacing="0.8" fill="#91b1ca">{escape(subject)}</text>
+{subtitle_svg}  <text x="30" y="{height - 18}" font-size="10" font-weight="600" letter-spacing="0.6" fill="#91b1ca">{escape(subject)}</text>
     {date_svg}
   </g>
-  <path d="M794 {height // 2 - 8} l9 9 -9 9 M803 {height // 2 + 1} h-26" stroke="#75e5ca" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M794 {height // 2 - 6} l7 7 -7 7 M801 {height // 2 + 1} h-22" stroke="#75e5ca" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>
 '''
+
 
 
 def section(posts: list[dict]) -> str:
@@ -142,7 +144,7 @@ def section(posts: list[dict]) -> str:
         lines.extend([
             '<p align="center">',
             f'  <a href="{escape(post["url"], quote=True)}">',
-            f'    <img src="{image}" alt="{escape(post["title"], quote=True)}" width="100%">',
+            f'    <img src="{image}" alt="{escape(post["title"], quote=True)}" width="90%">',
             '  </a>',
             '</p>',
             ''
