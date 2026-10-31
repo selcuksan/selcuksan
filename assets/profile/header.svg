@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="176" viewBox="0 0 820 176" role="img" aria-label="Selçuk Şan — Platform Engineer">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14263d"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#76e4ce"/>
+      <stop offset="100%" stop-color="#668cfa"/>
+    </linearGradient>
+    <clipPath id="rounded"><rect x="1" y="1" width="818" height="174" rx="16"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="174" rx="16" fill="url(#background)" stroke="#33445a" stroke-width="1.5"/>
+  <g clip-path="url(#rounded)">
+    <circle cx="810" cy="-15" r="170" fill="none" stroke="#74dcca" stroke-width="38" stroke-opacity=".05"/>
+    <circle cx="810" cy="-15" r="118" fill="none" stroke="#8ca2fb" stroke-width="22" stroke-opacity=".05"/>
+    <path d="M0 0 H6 V176 H0 Z" fill="url(#edge)"/>
+    <path d="M35 157 H489" stroke="#445b71" stroke-opacity=".7" stroke-width="1"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="35" y="33" fill="#73dfca" font-size="11" letter-spacing="2.3" font-weight="700">PLATFORM ENGINEERING</text>
+    <text x="32" y="84" fill="#f7f9fc" font-size="41" font-weight="700">Selçuk Şan</text>
+    <text x="35" y="119" fill="#c4d0de" font-size="17">Platform Engineer</text>
+    <text x="35" y="145" fill="#8fa9c2" font-size="13">Kubernetes · OpenShift · Observability</text>
+
+    <rect x="545" y="24" width="248" height="127" rx="11" fill="#0c1728" stroke="#344960" stroke-width="1"/>
+    <text x="567" y="47" fill="#93aac4" font-size="10" letter-spacing="1.7" font-weight="700">ENGINEERING FOCUS</text>
+    <path d="M568 55 H772" stroke="#34485f" stroke-width="1"/>
+
+    <circle cx="572" cy="76" r="4" fill="#78e2ce"/>
+    <text x="588" y="80" fill="#dfe8f3" font-size="13" font-weight="600">Build</text>
+    <text x="771" y="80" fill="#718da8" font-size="11" text-anchor="end">01</text>
+
+    <circle cx="572" cy="105" r="4" fill="#87aeff"/>
+    <text x="588" y="109" fill="#dfe8f3" font-size="13" font-weight="600">Operate</text>
+    <text x="771" y="109" fill="#718da8" font-size="11" text-anchor="end">02</text>
+
+    <circle cx="572" cy="134" r="4" fill="#b0a0fa"/>
+    <text x="588" y="138" fill="#dfe8f3" font-size="13" font-weight="600">Observe</text>
+    <text x="771" y="138" fill="#718da8" font-size="11" text-anchor="end">03</text>
+  </g>
+</svg>
