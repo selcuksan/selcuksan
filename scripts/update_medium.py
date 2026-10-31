@@ -1,136 +1,188 @@
 #!/usr/bin/env python3
-"""Refresh the Medium section in the GitHub profile README using the RSS feed."""
+"""Render Medium posts as readable, linked, native SVG cards for a GitHub profile."""
 
 from __future__ import annotations
 
 import argparse
+from datetime import timezone
 from email.utils import parsedate_to_datetime
 from html import escape, unescape
 from html.parser import HTMLParser
 from pathlib import Path
 import re
+import textwrap
+from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
 FEED_URL = "https://medium.com/feed/@selcuk.san"
-PROFILE_URL = "https://medium.com/@selcuk.san"
 START = "<!-- medium-posts:start -->"
 END = "<!-- medium-posts:end -->"
 MAX_POSTS = 5
 
 
-class ReadableText(HTMLParser):
-    """Get the opening paragraph without figures or code examples."""
-
+class FirstParagraph(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.skip = 0
-        self.in_paragraph = False
-        self.current = []
+        self.in_p = False
+        self.parts = []
         self.paragraphs = []
 
     def handle_starttag(self, tag, attrs):
-        if tag in ("figure", "pre", "script", "style", "blockquote"):
+        if tag in ("figure", "pre", "blockquote", "script", "style"):
             self.skip += 1
         elif tag == "p" and not self.skip:
-            self.in_paragraph = True
-            self.current = []
+            self.in_p = True
+            self.parts = []
 
     def handle_endtag(self, tag):
-        if tag == "p" and self.in_paragraph:
-            text = " ".join("".join(self.current).split())
-            if len(text) >= 35:
-                self.paragraphs.append(text)
-            self.in_paragraph = False
-        elif tag in ("figure", "pre", "script", "style", "blockquote"):
+        if tag == "p" and self.in_p:
+            sentence = " ".join("".join(self.parts).split())
+            if len(sentence) > 35:
+                self.paragraphs.append(sentence)
+            self.in_p = False
+        elif tag in ("figure", "pre", "blockquote", "script", "style"):
             self.skip = max(0, self.skip - 1)
 
     def handle_data(self, data):
-        if self.in_paragraph and not self.skip:
-            self.current.append(data)
+        if self.in_p and not self.skip:
+            self.parts.append(data)
 
 
-def short_description(html, limit=185):
-    parser = ReadableText()
+def description(html: str, max_chars: int = 120) -> str:
+    parser = FirstParagraph()
     parser.feed(html)
-    text = parser.paragraphs[0] if parser.paragraphs else re.sub(r"<[^>]*>", " ", html)
-    text = " ".join(unescape(text).split())
-    if len(text) > limit:
-        text = text[: limit - 1].rsplit(" ", 1)[0].rstrip(".,;: ") + "…"
+    text = " ".join(unescape(parser.paragraphs[0]).split()) if parser.paragraphs else ""
+    if len(text) > max_chars:
+        text = text[:max_chars].rsplit(" ", 1)[0].rstrip(".,;: ") + "…"
     return text
 
 
-def read_posts(xml):
-    root = ET.fromstring(xml)
+def read_posts(data: bytes) -> list[dict]:
+    root = ET.fromstring(data)
     posts = []
     for item in root.findall("./channel/item"):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
-        if not title or not link.startswith(("https://medium.com/", "http://medium.com/")):
+        parsed = urlparse(link)
+        if not title or parsed.scheme != "https" or parsed.netloc.lower() not in ("medium.com", "www.medium.com"):
             continue
         content = (item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded")
                    or item.findtext("description") or "")
         try:
-            published = parsedate_to_datetime(item.findtext("pubDate") or "").strftime("%d %b %Y")
+            published = parsedate_to_datetime(item.findtext("pubDate") or "").astimezone(timezone.utc).strftime("%d %b %Y").upper()
         except (TypeError, ValueError, OverflowError):
             published = ""
         tags = [e.text.strip() for e in item.findall("category") if e.text and e.text.strip()]
         posts.append({
-            "title": title, "link": link, "published": published,
-            "tags": " · ".join(tags[:2]), "description": short_description(content)
+            "title": title, "url": link, "date": published,
+            "topic": tags[0].upper() if tags else "TECHNICAL ARTICLE",
+            "description": description(content),
         })
         if len(posts) >= MAX_POSTS:
             break
     if not posts:
-        raise ValueError("No valid Medium posts found; existing README has not been changed")
+        raise ValueError("No Medium articles in the feed; existing README remains unchanged")
     return posts
 
 
-def make_section(posts):
-    lines = [START, "<table>", "  <tbody>"]
-    for post in posts:
-        metadata = " · ".join(x for x in (post["published"], post["tags"]) if x)
-        lines += [
-            "    <tr>",
-            '      <td width="100%">',
-            f'        <a href="{escape(post["link"], quote=True)}"><strong>{escape(post["title"])} ↗</strong></a>',
-        ]
-        if metadata:
-            lines.append(f"        <br><sub>{escape(metadata)}</sub>")
-        if post["description"]:
-            lines.append(f'        <p>{escape(post["description"])}</p>')
-        lines += ["      </td>", "    </tr>"]
-    lines += [
-        "  </tbody>", "</table>", "",
-        f"[View all articles on Medium ↗]({PROFILE_URL})", END
-    ]
+def wrap(text: str, width: int, max_lines: int) -> list[str]:
+    lines = textwrap.wrap(text, width=width, break_long_words=False, break_on_hyphens=False)
+    if len(lines) > max_lines:
+        lines = lines[:max_lines]
+        lines[-1] = lines[-1].rstrip(" .") + "…"
+    return lines
+
+
+def svg_card(post: dict, index: int, total: int) -> str:
+    featured = index == 0
+    height = 228 if featured else 162
+    title_y = 95 if featured else 79
+    title_size = 29 if featured else 25
+    title_lines = wrap(post["title"], 43 if featured else 47, 2)
+    summary = wrap(post["description"], 82, 1) if featured and post["description"] else []
+    title_svg = "\n".join(
+        f'  <text x="40" y="{title_y + i * 34}" fill="#f8fafc" font-size="{title_size}" font-weight="700">{escape(line)}</text>'
+        for i, line in enumerate(title_lines)
+    )
+    subtitle_svg = (f'  <text x="40" y="177" fill="#aebdd1" font-size="14">{escape(summary[0])}</text>\n'
+                    if summary else "")
+    subject = post["topic"]
+    if len(subject) > 35:
+        subject = subject[:34].rsplit(" ", 1)[0] + "…"
+    date_svg = (f'<text x="798" y="{height - 24}" font-size="12" font-weight="600" '
+                f'fill="#8191aa" text-anchor="end">{escape(post["date"])}</text>'
+                if post["date"] else "")
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 {height}" width="840" height="{height}" role="img" aria-label="{escape(post['title'], quote=True)}">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131f32"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#75e5ca"/><stop offset="1" stop-color="#6088f0"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="838" height="{height-2}" rx="18" fill="url(#bg)" stroke="#2c3a4f" stroke-width="2"/>
+  <rect x="1" y="26" width="5" height="{height-52}" rx="2" fill="url(#accent)"/>
+  <circle cx="742" cy="10" r="72" fill="none" stroke="#75e5ca" stroke-opacity="0.08" stroke-width="25"/>
+  <circle cx="742" cy="10" r="113" fill="none" stroke="#93a8f5" stroke-opacity="0.05" stroke-width="22"/>
+  <text x="40" y="37" fill="#74dec9" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.5">{('FEATURED STORY' if featured else 'ENGINEERING NOTES')}</text>
+  <text x="799" y="37" text-anchor="end" fill="#7d8fa9" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">{index+1:02d} / {total:02d}</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+{title_svg}
+{subtitle_svg}  <text x="40" y="{height - 24}" font-size="12" font-weight="600" letter-spacing="0.8" fill="#91b1ca">{escape(subject)}</text>
+    {date_svg}
+  </g>
+  <path d="M794 {height // 2 - 8} l9 9 -9 9 M803 {height // 2 + 1} h-26" stroke="#75e5ca" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
+'''
+
+
+def section(posts: list[dict]) -> str:
+    lines = [START]
+    for i, post in enumerate(posts):
+        image = f"assets/medium/article-{i+1:02d}.svg"
+        lines.extend([
+            '<p align="center">',
+            f'  <a href="{escape(post["url"], quote=True)}">',
+            f'    <img src="{image}" alt="{escape(post["title"], quote=True)}" width="100%">',
+            '  </a>',
+            '</p>',
+            ''
+        ])
+    lines.extend([
+        '<p align="right"><a href="https://medium.com/@selcuk.san">Read all articles on Medium ↗</a></p>',
+        END
+    ])
     return "\n".join(lines)
 
 
-def main():
-    cli = argparse.ArgumentParser()
-    cli.add_argument("--readme", type=Path, default=Path("README.md"))
-    cli.add_argument("--feed-file", type=Path, help="Local XML feed for testing")
-    args = cli.parse_args()
+def update(readme_path: Path, assets: Path, posts: list[dict]) -> None:
+    current = readme_path.read_text(encoding="utf-8")
+    if current.count(START) != 1 or current.count(END) != 1:
+        raise ValueError("Expected exactly one pair of Medium markers; nothing changed")
+    replacement = re.sub(re.escape(START) + r".*?" + re.escape(END),
+                         lambda _: section(posts), current, flags=re.S, count=1)
+    cards = [(assets / f"article-{i+1:02d}.svg", svg_card(post, i, len(posts)))
+             for i, post in enumerate(posts)]
+    assets.mkdir(parents=True, exist_ok=True)
+    for path, content in cards:
+        if not path.exists() or path.read_text(encoding="utf-8") != content:
+            path.write_text(content, encoding="utf-8")
+    if replacement != current:
+        readme_path.write_text(replacement, encoding="utf-8")
 
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--readme", type=Path, default=Path("README.md"))
+    parser.add_argument("--assets", type=Path, default=Path("assets/medium"))
+    parser.add_argument("--feed-file", type=Path)
+    args = parser.parse_args()
     if args.feed_file:
         feed = args.feed_file.read_bytes()
     else:
-        request = Request(FEED_URL, headers={"User-Agent": "github-profile-medium-updater/1.0"})
-        with urlopen(request, timeout=25) as response:
+        req = Request(FEED_URL, headers={"User-Agent": "github-profile-medium-cards/2.0"})
+        with urlopen(req, timeout=25) as response:
             feed = response.read()
-
-    replacement = make_section(read_posts(feed))
-    readme = args.readme.read_text(encoding="utf-8")
-    if readme.count(START) != 1 or readme.count(END) != 1:
-        raise ValueError("README must contain exactly one pair of Medium section markers")
-    updated = re.sub(re.escape(START) + r".*?" + re.escape(END),
-                     lambda _: replacement, readme, count=1, flags=re.DOTALL)
-    if updated != readme:
-        args.readme.write_text(updated, encoding="utf-8")
-        print("Medium section updated")
-    else:
-        print("No changes to Medium section")
+    update(args.readme, args.assets, read_posts(feed))
 
 
 if __name__ == "__main__":
