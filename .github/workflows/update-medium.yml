@@ -23,10 +23,10 @@ jobs:
         run: python scripts/update_medium.py
       - name: Commit only when content changes
         run: |
-          if ! git diff --quiet -- README.md; then
+          if ! git diff --quiet -- README.md || [ -n "$(git status --porcelain -- assets/medium)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
+            git add README.md assets/medium
             git commit -m "docs: refresh Medium articles"
             git push
           fi
